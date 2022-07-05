@@ -1,6 +1,7 @@
 ---
 title: "Pokidex App using React and Redux"
 date: "2021-06-13"
+keyword: "React, Redux"
 ---
 
 Why does everyone seem to make a Pokedex app when learning how to interact with API's? Because it is so much fun!

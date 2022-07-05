@@ -1,6 +1,7 @@
 ---
 title: "Pokemon Style Game Dev Site"
 date: "2022-07-01"
+keyword: "HTML, Vanilla JavaScript, Canvas"
 ---
 
 I generally use my personal [website](https://jonellwood.dev) as a bit of a playground to try out new things I am learning.

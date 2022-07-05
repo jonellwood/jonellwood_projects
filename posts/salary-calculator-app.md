@@ -1,6 +1,7 @@
 ---
 title: "Salary Calculator App using vanilla JS"
 date: "2022-03-21"
+keyword: "HTML, CSS, JavaScript"
 ---
 
 One day while installing a printer at a new workstation I watched a conversation between two managers discussing a coming years budget and salary increases for employees. The pay scale has 13 pay grades and each grade has 12 steps.

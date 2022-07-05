@@ -1,6 +1,7 @@
 ---
 title: "Resume Site Word Clone"
 date: "2022-06-22"
+keyword: "HTML, CSS, JavaScript"
 ---
 
 While realizing an online resume is critical for obtaining employment these days I decided I wanted to to have a webpage that would serve as a resume - but was also a challenge to build. I decided on trying to make a web page that looks like a Word Document.

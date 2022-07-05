@@ -27,11 +27,11 @@ export default function Home({ allPostsData }) {
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}></h2>
+        {/* <h2 className={utilStyles.headingLg}></h2> */}
         <ul className={utilStyles.list}>
           {allPostsData.map(
-            ({ id, date, title }) => (
-              console.log(date + " " + title + " " + id),
+            ({ id, date, title, keyword }) => (
+              console.log(title + " " + keyword),
               (
                 <li className={utilStyles.listItem} key={id}>
                   <Link href={`/posts/${id}`}>
@@ -40,6 +40,9 @@ export default function Home({ allPostsData }) {
                   <br />
                   <small className={utilStyles.lightText}>
                     <Date dateString={date} />
+                  </small>
+                  <small className={utilStyles.keywordText}>
+                    <p>{keyword}</p>
                   </small>
                 </li>
               )
