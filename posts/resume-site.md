@@ -1,5 +1,5 @@
 ---
-title: "Resume Site Word Clone (attempt)"
+title: "Resume Site Word Clone"
 date: "2022-06-22"
 ---
 

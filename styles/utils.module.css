@@ -24,6 +24,11 @@
   font-size: 1.2rem;
   line-height: 1.5;
 }
+.headingMdWordy {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
 
 .borderCircle {
   border-radius: 9999px;
@@ -37,14 +42,31 @@
   padding-top: 1px;
 }
 
-.list {
+/* .list {
   list-style: none;
   padding: 0;
   margin: 0;
+} */
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  padding: 4px;
+  margin: 4px;
 }
 
 .listItem {
-  margin: 0 0 1.25rem;
+  margin: 1rem 1rem 1.25rem;
+  border: solid black 3px;
+  border-radius: 10px;
+  box-shadow: 3px 3px #66666660;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.listItem:hover {
+  text-decoration: none;
+  box-shadow: 5px 5px #66666660;
 }
 
 .lightText {

@@ -20,23 +20,31 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className="{utilStyles.headingMd}">
-        <p>I am Jon Ellwood and here are some projects I worked on.</p>
+      <section className="{utilStyles.headingMdWordy}">
+        <p>
+          I am Jon Ellwood and here is some information on a few projects I
+          worked on.
+        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}></h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
+          {allPostsData.map(
+            ({ id, date, title }) => (
+              console.log(date + " " + title + " " + id),
+              (
+                <li className={utilStyles.listItem} key={id}>
+                  <Link href={`/posts/${id}`}>
+                    <a>{title}</a>
+                  </Link>
+                  <br />
+                  <small className={utilStyles.lightText}>
+                    <Date dateString={date} />
+                  </small>
+                </li>
+              )
+            )
+          )}
         </ul>
       </section>
     </Layout>

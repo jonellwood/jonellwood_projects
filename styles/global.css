@@ -15,11 +15,12 @@ body {
 a {
   color: #0070f3;
   text-decoration: none;
+  font-weight: 300;
 }
 
-a:hover {
+/* a:hover {
   text-decoration: underline;
-}
+} */
 
 img {
   max-width: 100%;
