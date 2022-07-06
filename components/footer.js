@@ -6,17 +6,17 @@ import utilStyles from "../styles/utils.module.css";
 export default function () {
   return (
     <footer className={styles.footer}>
-      <p>
-        Site made with <a href="https://nextjs.org/">NextJS</a>
-      </p>
-      {/* <Image
+      <Image
         src={tree}
         alt="Tree"
         priority
         layout="fixed"
-        className="footer-tree"
+        className={utilStyles.tree}
         height={150}
-      /> */}
+      />
+      <p>
+        Site made with <a href="https://nextjs.org/">NextJS</a>
+      </p>
     </footer>
   );
 }

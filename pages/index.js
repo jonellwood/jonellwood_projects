@@ -53,14 +53,14 @@ export default function Home({ allPostsData }) {
           )}
         </ul>
       </section>
-      <Image
+      {/* <Image
         src={tree}
         alt="Tree"
         priority
         className={utilStyles.tree}
         layout="fixed"
         height={100}
-      />
+      /> */}
     </Layout>
   );
 }
