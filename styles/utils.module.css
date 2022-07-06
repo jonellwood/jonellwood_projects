@@ -84,6 +84,18 @@
   color: #666;
   font-size: x-small;
 }
+.tree {
+  position: absolute;
+  right: 0;
+}
+.tree2 {
+  position: absolute;
+  right: 0;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  padding-right: 20px;
+}
 
 @media (max-width: 1296px) {
   .list {
