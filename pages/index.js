@@ -38,7 +38,7 @@ export default function Home({ allPostsData }) {
               (
                 <li className={utilStyles.listItem} key={id}>
                   <Link href={`/posts/${id}`}>
-                    <a>{title}</a>
+                    <a className={utilStyles.titleLink}>{title}</a>
                   </Link>
                   <br />
                   <small className={utilStyles.lightText}>
@@ -53,15 +53,14 @@ export default function Home({ allPostsData }) {
           )}
         </ul>
       </section>
-      {/* <Image
+      <Image
         src={tree}
         alt="Tree"
         priority
+        className={utilStyles.tree}
         layout="fixed"
         height={100}
-        opacity="0.5"
-      /> */}
-      {/* <Footer /> */}
+      />
     </Layout>
   );
 }

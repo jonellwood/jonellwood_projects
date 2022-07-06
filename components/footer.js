@@ -5,7 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 
 export default function () {
   return (
-    <footer className="styles.footer">
+    <footer className={styles.footer}>
       <p>
         Site made with <a href="https://nextjs.org/">NextJS</a>
       </p>

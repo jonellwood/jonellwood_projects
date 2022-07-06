@@ -41,6 +41,12 @@
 .padding1px {
   padding-top: 1px;
 }
+.titleLink {
+  /* color: #07ff; */
+  color: black;
+  font-weight: 400;
+  text-shadow: 0.5px 0.5px #07ff;
+}
 
 /* .list {
   list-style: none;
