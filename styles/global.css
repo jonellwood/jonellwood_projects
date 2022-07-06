@@ -8,7 +8,8 @@ body {
   font-size: 18px;
   background: linear-gradient(#000000, #0070f360, #ff000060, #ffd70060);
   border-top: 50px solid black;
-  border-bottom: 50px solid black;
+  /* border-bottom: 50px solid black; */
+  /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
 }
 
 * {

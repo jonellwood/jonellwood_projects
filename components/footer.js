@@ -13,8 +13,8 @@ export default function () {
       <div className={utilStyles.tree2}>
         <Image src={tree2} alt="Tree" priority layout="fixed" height={185} />
       </div>
-      <p>
-        Site made with <a href="https://nextjs.org/">NextJS</a>
+      <p className={utilStyles.footerP}>
+        Site created using <a href="https://nextjs.org/">NextJS</a>
       </p>
     </footer>
   );

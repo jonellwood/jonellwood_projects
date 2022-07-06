@@ -29,14 +29,16 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            <Image
-              priority
-              src="/images/English-Jon.jpg"
-              className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt={name}
-            />
+            <div className={styles.headerImage}>
+              <Image
+                priority
+                src="/images/English-Jon.jpg"
+                className={utilStyles.borderCircle}
+                height={144}
+                width={144}
+                alt={name}
+              />
+            </div>
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
