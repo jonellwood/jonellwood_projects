@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import Footer from "./footer";
 
 const name = "Jon Ellwood";
 export const siteTitle = "Jon Ellwood Projects";
@@ -67,6 +68,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <Footer />
     </div>
   );
 }

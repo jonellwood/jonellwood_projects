@@ -4,6 +4,9 @@ import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
+import Image from "next/image";
+import tree from "../public/images/tree.svg";
+import Footer from "../components/footer";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -50,6 +53,15 @@ export default function Home({ allPostsData }) {
           )}
         </ul>
       </section>
+      {/* <Image
+        src={tree}
+        alt="Tree"
+        priority
+        layout="fixed"
+        height={100}
+        opacity="0.5"
+      /> */}
+      {/* <Footer /> */}
     </Layout>
   );
 }

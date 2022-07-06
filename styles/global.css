@@ -6,16 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
-  /* background: linear-gradient(
-    #ff000050,
-    #ffa50050,
-    #ffff0050,
-    #00ff0050,
-    #0000ff50,
-    #80080850,
-    
-  ); */
-  background: linear-gradient(#00000070, #ffffff);
+  background: linear-gradient(#000000, #0070f360, #ff000060, #ffd70060);
   border-top: 50px solid black;
   border-bottom: 50px solid black;
 }
@@ -28,6 +19,7 @@ a {
   color: #0070f3;
   text-decoration: none;
   font-weight: 300;
+  text-shadow: 0.5px 0.5px black;
 }
 
 /* a:hover {
