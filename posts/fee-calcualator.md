@@ -1,6 +1,9 @@
 ---
 title: "Fee Calculator Application"
 date: "2021-07-05"
+src: https://media.wired.com/photos/5933a9aca88f414d9a8c8fcb/master/pass/picture-23.png
+# height: "50px"
+width: "90%"
 keyword: ["Wordpress, JavaScript, Python"]
 ---
 

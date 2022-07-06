@@ -4,6 +4,8 @@ import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
+import CoverImage from "../components/cover-image";
+import Image from "next/image";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -30,13 +32,14 @@ export default function Home({ allPostsData }) {
         {/* <h2 className={utilStyles.headingLg}></h2> */}
         <ul className={utilStyles.list}>
           {allPostsData.map(
-            ({ id, date, title, keyword }) => (
-              console.log(title + " " + keyword),
+            ({ id, date, title, keyword, src, height, width }) => (
+              console.log(allPostsData),
               (
                 <li className={utilStyles.listItem} key={id}>
                   <Link href={`/posts/${id}`}>
                     <a className={utilStyles.titleLink}>{title}</a>
                   </Link>
+                  <CoverImage src={src} height={height} width={width} />
                   <br />
                   <small className={utilStyles.lightText}>
                     <Date dateString={date} />

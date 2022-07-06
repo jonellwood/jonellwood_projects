@@ -1,7 +1,9 @@
 ---
 title: "Pokemon Style Game Dev Site"
 excerpt: "I know my resume and portfolio is not going to look as nice and polished as someone who just graduated from college or finished a nice boot camp."
-coverImage: /public/images/word-resume.jpg
+src: https://www.gamingscan.com/wp-content/uploads/2020/09/Pokemon-Games-In-Order-1200x900.jpg
+# height: "50px"
+width: "90%"
 date: "2022-07-01"
 keyword: "HTML, Vanilla JavaScript, Canvas"
 ---

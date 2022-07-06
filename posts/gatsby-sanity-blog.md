@@ -1,6 +1,9 @@
 ---
 title: "Simple Blog using Gatsby and Sanity"
 date: "2021-03-15"
+src: https://cdn.sanity.io/images/81pocpw8/production/f0770320de73b22bb0b57cdaacf58d00116c9f01-2400x1800.jpg?rect=0,270,2400,1260&w=1200&h=630&fit=max&auto=format
+# height: "50px"
+width: "90%"
 keyword: "Gatsby, Sanity"
 ---
 

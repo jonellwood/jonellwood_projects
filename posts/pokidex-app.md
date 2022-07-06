@@ -1,6 +1,9 @@
 ---
 title: "Pokidex App using React and Redux"
 date: "2021-06-13"
+src: https://assets.vg247.com/current//2021/07/pokemon_go_pokedex_how_many_pokemon_are_there.png
+# height: "50px"
+width: "90%"
 keyword: "React, Redux"
 ---
 
