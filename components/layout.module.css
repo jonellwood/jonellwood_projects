@@ -3,6 +3,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+.anotherWrapper {
+  background-color: #ffffff20;
+  padding: 20px;
+}
 
 .header {
   display: flex;

@@ -1,5 +1,7 @@
 ---
 title: "Pokemon Style Game Dev Site"
+excerpt: "I know my resume and portfolio is not going to look as nice and polished as someone who just graduated from college or finished a nice boot camp."
+coverImage: /public/images/word-resume.jpg
 date: "2022-07-01"
 keyword: "HTML, Vanilla JavaScript, Canvas"
 ---
@@ -25,3 +27,5 @@ It occurred to me though that we have enough fighting in the world right now. So
 There is still quite a bit of work to do on it and I squash bugs as quick as I can. My hope is that it will be taken for what it is intended to be - something a little different to highlight some creativity and positivity; but also help me get a job! 😁
 
 Please take a minute to swing by [here](https://jonellwood.dev) and check it out!
+
+<img src="https://img.pokemondb.net/artwork/vector/ivysaur.png" alt="Blow">
