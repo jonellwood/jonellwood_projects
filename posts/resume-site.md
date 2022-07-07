@@ -1,7 +1,7 @@
 ---
 title: "Resume Site Word Clone"
 date: "2022-06-22"
-src: https://www.ryadel.com/wp-content/uploads/2016/05/Microsoft-Word-2013-Logo-Web1.jpg
+src: https://res.cloudinary.com/drwfft7zs/image/upload/v1657206712/Projects_Blog/Screenshot_2022-07-07_at_11.11.33_AM_1_bgjxsi.png
 # height: "50px"
 width: "90%"
 keyword: "HTML, CSS, JavaScript"

@@ -1,7 +1,7 @@
 ---
 title: "Slide deck"
 date: "2021-11-16"
-src: https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/75a1d2b5-fde9-4680-b46b-6d20cd41edf4
+src: https://res.cloudinary.com/drwfft7zs/image/upload/v1657143691/Projects_Blog/Screenshot_2022-07-06_at_5.38.59_PM_qrhhxe.png
 # height: "50px"
 width: "90%"
 keyword: "HTML, JavaScript, Reveal.js"

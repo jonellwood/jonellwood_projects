@@ -36,17 +36,19 @@ export default function Home({ allPostsData }) {
               console.log(allPostsData),
               (
                 <li className={utilStyles.listItem} key={id}>
+                  <CoverImage src={src} height={height} width={width} />
                   <Link href={`/posts/${id}`}>
                     <a className={utilStyles.titleLink}>{title}</a>
                   </Link>
-                  <CoverImage src={src} height={height} width={width} />
-                  <br />
-                  <small className={utilStyles.lightText}>
-                    <Date dateString={date} />
-                  </small>
-                  <small className={utilStyles.keywordText}>
-                    <p>{keyword}</p>
-                  </small>
+                  <div className={utilStyles.smallTextWrapper}>
+                    <small className={utilStyles.lightText}>
+                      <Date dateString={date} />
+                    </small>
+                    {/* <br /> */}
+                    <small className={utilStyles.keywordText}>
+                      <p>{keyword}</p>
+                    </small>
+                  </div>
                 </li>
               )
             )

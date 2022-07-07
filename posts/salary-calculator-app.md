@@ -1,7 +1,7 @@
 ---
 title: "Salary Calculator App using vanilla JS"
 date: "2022-03-21"
-src: https://media.wired.com/photos/5933a9aca88f414d9a8c8fcb/master/pass/picture-23.png
+src: https://res.cloudinary.com/drwfft7zs/image/upload/v1657143691/Projects_Blog/Screenshot_2022-07-06_at_5.39.35_PM_qvzwsh.png
 # height: "50px"
 width: "90%"
 keyword: "HTML, CSS, JavaScript"

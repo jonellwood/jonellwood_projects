@@ -14,7 +14,11 @@ export default function () {
         <Image src={tree2} alt="Tree" priority layout="fixed" height={185} />
       </div>
       <p className={utilStyles.footerP}>
-        Site created using <a href="https://nextjs.org/">NextJS</a>
+        {/* Site created using <a href="https://nextjs.org/">NextJS |</a> */}
+        <a href="https://jonellwood.dev"> My Site |</a>
+        <a href="https://github.com/jonellwood"> Github |</a>
+        <a href="https://resume.jonellwood.dev"> Resume |</a>
+        <a href="https://twitter.com/thejonellwood"> Twitter</a>
       </p>
     </footer>
   );
