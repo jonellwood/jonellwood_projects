@@ -9,10 +9,12 @@
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
+  height: 100px;
 }
+
 .footer {
   text-align: center;
 }
@@ -25,9 +27,17 @@
   .footer {
     display: none;
   }
-}
-@media (max-width: 900px) {
   .headerImage {
     display: none;
+  }
+  .header {
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+    height: fit-content;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    grid-template-columns: 1fr;
   }
 }

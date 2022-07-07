@@ -23,10 +23,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMdWordy}>
-        <p>
-          I am Jon Ellwood and here is some information on a few projects I
-          worked on.
-        </p>
+        <p>Some information on a few projects I worked on.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         {/* <h2 className={utilStyles.headingLg}></h2> */}

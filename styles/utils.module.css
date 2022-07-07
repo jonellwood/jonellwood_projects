@@ -4,6 +4,8 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  text-align: right;
+  margin-right: 40px;
 }
 
 .headingXl {
@@ -25,7 +27,7 @@
   line-height: 1.5;
 }
 .headingMdWordy {
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   line-height: 1.5;
   text-align: center;
 }
@@ -115,6 +117,9 @@
   .list {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .headingMdWordy {
+    font-size: 1.75rem;
+  }
 }
 @media (max-width: 900px) {
   .list {
@@ -122,18 +127,38 @@
   }
   .heading2Xl {
     color: #f5f5f5;
+    font-size: 1.5rem;
+  }
+  .headingXl {
+    font-size: 1.5rem;
   }
   .headingMdWordy {
     color: #faf0e6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
   }
   .titleLink {
     color: #e5e4e2;
     text-shadow: none;
+  }
+  .colorInherit {
+    color: #ffffff50;
   }
 }
 
 @media (max-width: 600px) {
   .list {
     grid-template-columns: 1fr;
+  }
+  .headingMdWordy {
+    display: none;
+  }
+  .heading2Xl {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .headingXl {
+    font-size: 1.5rem;
   }
 }

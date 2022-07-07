@@ -15,10 +15,26 @@ export default function () {
       </div>
       <p className={utilStyles.footerP}>
         {/* Site created using <a href="https://nextjs.org/">NextJS |</a> */}
-        <a href="https://jonellwood.dev"> My Site |</a>
-        <a href="https://github.com/jonellwood"> Github |</a>
-        <a href="https://resume.jonellwood.dev"> Resume |</a>
-        <a href="https://twitter.com/thejonellwood"> Twitter</a>
+        <a href="https://jonellwood.dev" target="_blank">
+          {" "}
+          My Site |
+        </a>
+        <a href="https://github.com/jonellwood" target="_blank">
+          {" "}
+          Github |
+        </a>
+        <a href="https://contact.jonellwood.dev" target="_blank">
+          {" "}
+          Contact |
+        </a>
+        <a href="https://resume.jonellwood.dev" target="_blank">
+          {" "}
+          Resume |
+        </a>
+        <a href="https://twitter.com/thejonellwood" target="_blank">
+          {" "}
+          Twitter
+        </a>
       </p>
     </footer>
   );

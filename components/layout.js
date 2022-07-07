@@ -45,7 +45,7 @@ export default function Layout({ children, home }) {
           ) : (
             <>
               <Link href="/">
-                <a>
+                <a className={styles.headerImage}>
                   <Image
                     priority
                     src="/images/English-Jon.jpg"
