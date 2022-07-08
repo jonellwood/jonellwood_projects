@@ -66,18 +66,25 @@
 .listItem {
   display: grid;
   grid-template-rows: 2fr 1fr 1fr;
-  margin: 1rem 1rem 1.25rem;
-  border: solid black 3px;
+  margin: 0.5rem 0.5rem 1.25rem;
+  border: solid 3px var(--black);
   border-radius: 10px;
-  box-shadow: 3px 3px #66666660;
+  box-shadow: 0px 8px #66666660;
   padding: 10px;
   text-decoration: none;
 }
 
-.listItem:hover {
+/* .listItem:hover {
   text-decoration: none;
-  box-shadow: 5px 5px #66666660;
+  box-shadow: 10px 10px #66666660;
   font-weight: 600;
+} */
+
+.listItem:hover,
+.listItem:focus {
+  box-shadow: 0 1em 1em -0.4em #e4cb58;
+  transform: translateY(-0.45em);
+  border: solid #e4cb58 5px;
 }
 
 .lightText {

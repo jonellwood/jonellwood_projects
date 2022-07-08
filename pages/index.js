@@ -5,7 +5,6 @@ import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
 import CoverImage from "../components/cover-image";
-import Image from "next/image";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -30,24 +29,22 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
           {allPostsData.map(
             ({ id, date, title, keyword, src, height, width }) => (
-              console.log(allPostsData),
-              (
-                <li className={utilStyles.listItem} key={id}>
-                  <CoverImage src={src} height={height} width={width} />
-                  <Link href={`/posts/${id}`}>
-                    <a className={utilStyles.titleLink}>{title}</a>
-                  </Link>
-                  <div className={utilStyles.smallTextWrapper}>
-                    <small className={utilStyles.lightText}>
-                      <Date dateString={date} />
-                    </small>
-                    {/* <br /> */}
-                    <small className={utilStyles.keywordText}>
-                      <p>{keyword}</p>
-                    </small>
-                  </div>
-                </li>
-              )
+              // console.log(allPostsData),
+              <li className={utilStyles.listItem} key={id}>
+                <CoverImage src={src} height={height} width={width} />
+                <Link href={`/posts/${id}`}>
+                  <a className={utilStyles.titleLink}>{title}</a>
+                </Link>
+                <div className={utilStyles.smallTextWrapper}>
+                  <small className={utilStyles.lightText}>
+                    <Date dateString={date} />
+                  </small>
+                  {/* <br /> */}
+                  <small className={utilStyles.keywordText}>
+                    <p>{keyword}</p>
+                  </small>
+                </div>
+              </li>
             )
           )}
         </ul>

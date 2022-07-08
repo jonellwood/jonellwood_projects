@@ -10,6 +10,10 @@ body {
   border-top: 50px solid black;
   /* border-bottom: 50px solid black; */
   /* border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
+  --black: #000000;
+  --blue: #0070f360;
+  --red: #ff000060;
+  --gold: #ffd70060;
 }
 
 * {
