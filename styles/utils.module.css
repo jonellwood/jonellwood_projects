@@ -74,17 +74,11 @@
   text-decoration: none;
 }
 
-/* .listItem:hover {
-  text-decoration: none;
-  box-shadow: 10px 10px #66666660;
-  font-weight: 600;
-} */
-
 .listItem:hover,
 .listItem:focus {
-  box-shadow: 0 1em 1em -0.4em #e4cb58;
+  box-shadow: 0 1em 1em -0.4em #e4cb5870;
   transform: translateY(-0.45em);
-  border: solid #e4cb58 5px;
+  border: solid #e4cb5890 5px;
 }
 
 .lightText {
